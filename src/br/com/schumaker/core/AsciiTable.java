@@ -67,6 +67,39 @@ public class AsciiTable {
         asciiCode.put("x", 88 + 32);
         asciiCode.put("y", 89 + 32);
         asciiCode.put("z", 90 + 32);
+        asciiCode.put("!", 33);
+        asciiCode.put("\"", 34);
+        asciiCode.put("#", 35);
+        asciiCode.put("$", 36);
+        asciiCode.put("%", 37);
+        asciiCode.put("&", 38);
+        asciiCode.put("'", 39);
+        asciiCode.put("(", 40);
+        asciiCode.put(")", 41);
+        asciiCode.put("*", 42);
+        asciiCode.put("+", 43);
+        asciiCode.put(",", 44);
+        asciiCode.put("-", 45);
+        asciiCode.put(".", 46);
+        asciiCode.put("/", 47);   
+        asciiCode.put("0", 48);  
+        asciiCode.put("1", 49);
+        asciiCode.put("2", 50);
+        asciiCode.put("3", 51);
+        asciiCode.put("4", 52);
+        asciiCode.put("5", 53); 
+        asciiCode.put("6", 54); 
+        asciiCode.put("7", 55); 
+        asciiCode.put("8", 56); 
+        asciiCode.put("9", 57);
+        asciiCode.put(":", 58);
+        asciiCode.put(";", 59); 
+        asciiCode.put("<", 60);
+        asciiCode.put("=", 61);
+        asciiCode.put(">", 62);
+        asciiCode.put("?", 63);
+        asciiCode.put("@", 64); 
+                
     }
 
     public int getAsciiCode(String letter) {
